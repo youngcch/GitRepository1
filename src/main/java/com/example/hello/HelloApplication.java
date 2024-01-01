@@ -17,6 +17,6 @@ public class HelloApplication {
 class HelloController {
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, Ci/Cd Test Success";
+		return "Hello, Ci/Cd Test Success2";
 	}
 }
