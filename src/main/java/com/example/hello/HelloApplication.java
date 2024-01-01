@@ -17,6 +17,6 @@ public class HelloApplication {
 class HelloController {
 	@GetMapping("/hello")
 	public String hello() {
-		return "hello, ci/cd";
+		return "hello, ci/cd test success";
 	}
-}
+}git add .
