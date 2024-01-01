@@ -23,7 +23,7 @@ jobs:
     - name: Build with Gradle
       run: |
         chmod +x ./gradlew
-        ./gradlew --debug build
+        ./gradlew build
 
     - name: Deploy to EC2
       uses: appleboy/scp-action@v0.1.7
