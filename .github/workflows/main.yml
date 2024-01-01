@@ -21,7 +21,11 @@ jobs:
         java-version: '11'
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: |
+        chmod +x ./gradlew
+        ./gradlew build
+
+           
 
     - name: Deploy to EC2
       uses: appleboy/scp-action@v0.1.7
