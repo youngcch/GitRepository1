@@ -31,4 +31,5 @@ jobs:
         host: ${{ secrets.EC2_HOST }}
         username: ${{ secrets.EC2_USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
-  
+        source: build/libs/hello.jar
+        target: path-to-server-build-file
